@@ -53,3 +53,8 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+#CCS 工程额外忽略
+Debug/
+Release/
+.settings/
