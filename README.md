@@ -58,8 +58,8 @@ empty.c              # Main 循环与任务调度
 
 ### 1. 环境准备
 
-- 安装 [Code Composer Studio (CCS)](https://gemini.google.com/app/c85ea7809ffbaf97?hl=zh)。
-- 安装对应版本的 [MSPM0 SDK](https://gemini.google.com/app/c85ea7809ffbaf97?hl=zh)。
+- 安装 [Code Composer Studio (CCS)](https://www.ti.com.cn/tool/cn/CCSTUDIO)。
+- 安装对应版本的 [MSPM0 SDK](https://www.ti.com.cn/tool/cn/MSPM0-SDK)。
 
 ### 2. 导入与编译
 
@@ -69,7 +69,7 @@ empty.c              # Main 循环与任务调度
 
 ### 3. 接线参考
 
-> ⚠️ **注意**：请务必将电机驱动电源（VM）与逻辑电源（VCC）分开，并共地（GND）。
+> **注意**：请务必将电机驱动电源（VM）与逻辑电源（VCC）分开，并共地（GND）。
 
 - **PWM 引脚**：请参考 `empty.syscfg` 中的引脚映射。
 - **传感器引脚**：接入对应的 GPIO 输入口。
@@ -100,10 +100,10 @@ $$\Delta u = K_p e(k) + K_i e(k-1) + K_d e(k-2)$$
 
 ## License
 
-本项目采用 [MIT License](https://gemini.google.com/app/c85ea7809ffbaf97?hl=zh) 开源。
+本项目采用 MIT License 开源协议。
 
 ------
 
 ### 提示
 
-如果你觉得这个项目对你有帮助，欢迎点个 **Star** ⭐！如果有任何问题，欢迎提交 **Issue**。
+如果你觉得这个项目对你有帮助，欢迎点个 **Star** ！如果有任何问题，欢迎提交 **Issue**。
